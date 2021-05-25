@@ -8,11 +8,11 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: http://127.0.0.1:4000/
+url: https://worthy-rope.cloudvent.net/
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: /hirahara
 # location of code, the full url to your github repository
-source-code: https://github.com/NikiJD/collectionbuilder_hirahara
+source-code: https://github.com/alexmerrill/collectionbuilder_hirahara
 
 ##########
 # SITE SETTINGS
@@ -20,14 +20,14 @@ source-code: https://github.com/NikiJD/collectionbuilder_hirahara
 # title of site appears in banner
 title: George and Frank C. Hirahara Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Photos depicting life in the Japanese American incarceration camp at Heart Mountain Wyoming. 
+tagline: Photos depicting life in the Japanese American incarceration camp at Heart Mountain Wyoming.
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "The George and Frank C. Hirahara Collection is considered the largest private collection of photos depicting life in the Japanese American incarceration camp at Heart Mountain Wyoming." 
+description: "The George and Frank C. Hirahara Collection is considered the largest private collection of photos depicting life in the Japanese American incarceration camp at Heart Mountain Wyoming."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: # TODO
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: NikiJD
+author: NikiJD/alexmerrill
 # Organization branding
 organization-name: "WSU Libraries Digital Collections"
 organization-link: https://content.libraries.wsu.edu/digital/
@@ -44,15 +44,15 @@ metadata: hirahara
 cdm-collection-id: hiraharag # not sure this is the cdm collection id, check with Alex
 # CONTENTdm server url
 cdm-url: https://cdm16866.contentdm.oclc.org
-# page generation settings 
+# page generation settings
 # "data" value must be the name of the metadata file (other values should be not be changed)
 page_gen:
   - data: hirahara
     template: 'items'
     name: 'objectid'
     dir: 'items'
-    extension: 'html' 
-    filter: 'objectid'  
+    extension: 'html'
+    filter: 'objectid'
 
 ###########
 # GOOGLE SERVICES [optional!]
@@ -62,16 +62,16 @@ page_gen:
 # Add your google-analytics-id to automatically add the embed code, e.g. "UA-76328753-1"
 # google-analytics-id:
 # to populate a Google CSE add the id, e.g. "002151703305773322890:1pu3smhw1t8"
-# google-cse-id: 
+# google-cse-id:
 
 ##########
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-# noindex: true 
+# noindex: true
 
 ##########
-# BUILD SETTINGS 
+# BUILD SETTINGS
 #
 # Note: use environment variable on build command to include analytics
 # JEKYLL_ENV=production jekyll build
