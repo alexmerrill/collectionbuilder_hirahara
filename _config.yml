@@ -31,7 +31,7 @@ author: NikiJD/alexmerrill
 # Organization branding
 organization-name: "WSU Libraries Digital Collections"
 organization-link: https://content.libraries.wsu.edu/digital/
-organization-logo-banner: # TODO put this in
+organization-logo-banner: https://cdm16866.contentdm.oclc.org/customizations/global/images/coug-logo.png put this in
 organization-logo-nav: # TODO put this in
 
 
@@ -43,7 +43,7 @@ metadata: hirahara
 # contentdm collection name, matches collection ID used by CDM
 cdm-collection-id: hiraharag # not sure this is the cdm collection id, check with Alex
 # CONTENTdm server url
-cdm-url: https://cdm16866.contentdm.oclc.org
+cdm-url: https://content.libraries.wsu.edu/digital/
 # page generation settings
 # "data" value must be the name of the metadata file (other values should be not be changed)
 page_gen:
